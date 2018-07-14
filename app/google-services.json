@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "852800871702",
+    "firebase_url": "https://jobsresearch-82ef7.firebaseio.com",
+    "project_id": "jobsresearch-82ef7",
+    "storage_bucket": "jobsresearch-82ef7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852800871702:android:14260f8ff70fc138",
+        "android_client_info": {
+          "package_name": "com.jobresearch.controller.jobsresearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852800871702-37egnkkvd6e9r8e0tgh6olfq46ce96an.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jobresearch.controller.jobsresearch",
+            "certificate_hash": "15661da551c61e1f4862162f259bcccff0322568"
+          }
+        },
+        {
+          "client_id": "852800871702-5jepah8l9djco14rajs29iuc4f08fu90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD43FO7YU_YhHhfMivGjfbBavlRUeE6iSk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852800871702-5jepah8l9djco14rajs29iuc4f08fu90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

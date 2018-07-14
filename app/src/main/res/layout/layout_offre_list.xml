@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jobresearch.controller.jobsresearch.ListOffreActivity">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txtNm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="20dp"
+            android:text="Secteur"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/secteur"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="gfnjfnjh n"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textAlignment="center" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/fonction"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="gfnjfnjh n"
+            android:textAlignment="center"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/txtPn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:text="Fonction:"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/poste"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="hhhhhh"
+            android:textAlignment="center"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Poste"
+            android:paddingLeft="20dp"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout4"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/lieu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cvbghghf"
+            android:textAlignment="center"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Lieu"
+            android:paddingLeft="20dp"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout5"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="jgvjgjj"
+            android:textAlignment="center"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Type de Contrat"
+            android:paddingLeft="20dp"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout7"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/profil"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Atif Aslam"
+            android:textAlignment="center"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Profil"
+            android:paddingLeft="20dp"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    
+
+    
+   
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|clip_vertical|clip_horizontal|start|end"
+    android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txtNm"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="20dp"
+            android:text="Nom"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/nom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="gfnjfnjh n"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textAlignment="center" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/prenom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="gfnjfnjh n"
+            android:textAlignment="center"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/txtPn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:text="Prenom:"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="hhhhhh"
+            android:textAlignment="center"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Email"
+            android:paddingLeft="20dp"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout4"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/adresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cvbghghf"
+            android:textAlignment="center"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Adresse"
+            android:paddingLeft="20dp"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout5"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="jgvjgjj"
+            android:textAlignment="center"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Telephone"
+            android:paddingLeft="20dp"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout7"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/objectif"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Atif Aslam"
+            android:textAlignment="center"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Objectif"
+            android:paddingLeft="20dp"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout8"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:id="@+id/formation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="Vadenta"
+            android:text="Atif Aslam"
+            android:textAlignment="center"
+
+             />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Formation"
+            android:paddingLeft="20dp"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout9"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/competences"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/competence"
+            android:text="RAS"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/competence"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Competences:"
+            android:paddingLeft="20dp"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="0dp">
+
+        <TextView
+
+            android:id="@+id/centredi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="Vadenta"
+            android:text="RAS"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textAlignment="center"
+           />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Centre d'interets"
+            android:paddingLeft="20dp"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+</ScrollView>
+
+</LinearLayout>

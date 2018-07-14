@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jobresearch.controller.jobsresearch.UpdateCv">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:textColorHint="@color/blue"
+                    android:id="@+id/txtNmU"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:fontFamily="casual"
+                    android:hint="Nom"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+
+                <EditText
+                    android:id="@+id/txtPnU"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Prenom"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout2"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/emailU"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Email"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout4"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/adrU"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Adresse"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout5"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/telU"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Telephone"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout7"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp">
+
+                <EditText
+                    android:id="@+id/objU"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Objectif"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout8"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+
+                <EditText
+                    android:id="@+id/fmtU"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Formation"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout9"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/cptU"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Competences"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout10"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/ciU"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Centre d'interets"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout6"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorFlower"
+                android:fontFamily="sans-serif-medium"
+                android:text="MODIFIER"
+                android:textColor="@color/white" />
+
+
+
+    </ScrollView>
+</RelativeLayout>

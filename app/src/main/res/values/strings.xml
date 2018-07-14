@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">JobsResearch</string>
+    <string name="connection">Connection</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="inscription">Inscription</string>
+    <string name="waiting">Please wait..</string>
+    <string name="error_connection">Connection failed..</string>
+    <string name="error_parameters">Invalid parameters..</string>
+    <string name="error_fields">Required fields..</string>
+    <string name="success_inscription">Registration successful</string>
+    <string name="error_inscription">Inscription failed..</string>
+    <string name="title_activity_main">MainActivity</string>
+    <array name="secteur">
+        <item>ACHATS</item>
+        <item>ADMINISTRATION</item>
+        <item>ADMINISTRATIONDESVENTES</item>
+        <item>AFFAIRESREGLEMENTAIRES</item>
+        <item>ANALYSEFINANCIERE</item>
+        <item>ANALYSTE PROGRAMMEUR,</item>
+        <item>ARCHITECTE</item>
+        <item>AREA MANAGER</item>
+        <item>ASSISTANTCOMMERCIALETS</item>
+        <item>ASSURANCEQUALITE</item>
+        <item>AUDIT</item>
+        <item>AUDITEXTERNE</item>
+        <item>AUDITINTERNE</item>
+    </array>
+
+    <array name="type">
+        <item>Choisisez votre profil</item>
+        <item>Demandeur</item>
+        <item>Recruteur</item>
+
+    </array>
+    <string name="title_activity_">Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

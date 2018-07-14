@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jobresearch.controller.jobsresearch.ConnexionActivity"
+    android:background="@drawable/bgjr"
+    >
+
+        <RelativeLayout
+            android:paddingTop="20dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorMint"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/circle"
+                    android:padding="10dp"
+                    android:src="@drawable/baseline_lock_white_18dp"
+                    android:tint="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="CONNEXION"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_below="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:id="@+id/imgView_emailIcon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/colorMint"
+                    android:padding="8dp"
+                    android:src="@drawable/img_email"
+                    android:tint="@color/white" />
+
+                <EditText
+                    android:id="@+id/editTxtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+
+                    android:layout_alignBottom="@+id/imgView_emailIcon"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imgView_emailIcon"
+                    android:background="@color/editTextBG"
+                    android:hint="Email"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:id="@+id/imgView_passwordIcon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/colorMint"
+                    android:padding="8dp"
+                    android:src="@drawable/img_authentication"
+                    android:tint="@color/white" />
+
+                <EditText
+                    android:id="@+id/editTxtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imgView_passwordIcon"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imgView_passwordIcon"
+                    android:background="@color/editTextBG"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout2"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp">
+                <ImageView
+                    android:id="@+id/imgView_userIcon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/colorMintDark"
+                    android:padding="8dp"
+                    android:src="@drawable/img_user"
+                    android:tint="@color/white" />
+
+                <Spinner
+                    android:id="@+id/spinnerType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:entries="@array/type"
+                    android:background="@color/editTextBG"
+                    android:paddingLeft="20dp"
+                    android:textSize="15sp">
+
+                </Spinner>
+
+        </RelativeLayout>
+            <Button
+                android:id="@+id/btnCnx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout3"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorMint"
+                android:fontFamily="sans-serif-medium"
+                android:text="CONNEXION"
+                android:textColor="@color/white" />
+
+
+
+
+
+        </RelativeLayout>
+
+
+</RelativeLayout>
